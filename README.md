@@ -14,7 +14,7 @@ Luka Kačarik | lkacarik22@foi.hr | 6019831100161581886 | lkacarik22
 (Vlastitim riječima opišite zahtjeve za izradu ovog programskog proizvoda!)
 
 ## Zadatak
-aa
+https://github.com/foivz/pi2024-zadace-lkacarik22/blob/master/PI%20Zadatak%20-%20SCVZ.pdf
 
 ## Resursi
 Svi resursi nalaze se u mapi _Documentation_.
