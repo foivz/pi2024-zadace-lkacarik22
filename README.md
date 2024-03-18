@@ -17,6 +17,4 @@ Luka Kačarik | lkacarik22@foi.hr | 6019831100161581886 | lkacarik22
 (U root repozitorija učitajte zadatak koji ste dobili i potom ovdje stavite link na njegovo otvaranje!)
 
 ## Resursi
-(Zadaće je obvezno predati u obliku Wiki stranica na ovom repozitoriju. Slike i druge artefakte koje ćete koristiti na wiki stranicama smjestite u mapu dokumentacije u repozitoriju!)
-
 Svi resursi nalaze se u mapi _Documentation_.
