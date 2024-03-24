@@ -4,7 +4,7 @@
 
 Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime
 ------------  | ------------------- | ----- | ---------------------
-Luka Kačarik | lkacarik22@foi.hr | 6019831100161581886 | lkacarik22
+Luka Kačarik | lkacarik22@foi.hr | 0016158188 | lkacarik22
 
 
 ## Opis domene
