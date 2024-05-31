@@ -14,7 +14,7 @@ namespace SCV_Jela.Repositories
         public static Meni GetMeni(int id)
         {
             Meni meni = null;
-            string sql = $"SELECT * FROM Meni WHERE Id = {id}";
+            string sql = $"SELECT * WHERE Id = {id}";
             DB.OpenConnection();
             var reader = DB.GetDataReader(sql);
             if (reader.HasRows)
@@ -27,7 +27,7 @@ namespace SCV_Jela.Repositories
             return meni;
         }
 
-        public static List<Meni> GetStudents()
+        public static List<Meni> GetMeni()
         {
             List<Meni> meniji = new List<Meni>();
             string sql = "SELECT * FROM Meni";
@@ -45,14 +45,15 @@ namespace SCV_Jela.Repositories
 
         private static Meni CreateObject(SqlDataReader reader)
         {
-            int id = int.Parse(reader["Id"].ToString());
-            string juha = reader["Juha"].ToString();
-            string glavno = reader["Glavno"].ToString();
-            string prilog = reader["Prilog"].ToString();
-            string desert = reader["Desert"].ToString();
+            int id = int.Parse(reader["ID_meni"].ToString());
+            string juha = reader["juha_meni"].ToString();
+            string glavno = reader["glavno_meni"].ToString();
+            string prilog = reader["prilog_meni"].ToString();
+            string desert = reader["desert_meni"].ToString();
+
             var meni = new Meni
             {
-                Id = id,
+                ID = id,
                 Juha = juha,
                 Glavno = glavno,
                 Prilog = prilog,

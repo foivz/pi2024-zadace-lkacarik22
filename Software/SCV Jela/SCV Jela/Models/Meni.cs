@@ -9,7 +9,7 @@ namespace SCV_Jela.Models
 {
     internal class Meni
     {
-        public int Id { get; set; }
+        public int ID { get; set; }
         public string Juha { get; set; }
         public string Glavno { get; set; }
         public string Prilog { get; set; }

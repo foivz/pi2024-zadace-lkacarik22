@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SCV_Jela.Models;
+using SCV_Jela.Repositories;
 
 namespace SCV_Jela
 {
@@ -19,7 +21,18 @@ namespace SCV_Jela
 
         private void FormaMeniji_Load(object sender, EventArgs e)
         {
+            PrikazMeniji();
+        }
 
+        private void dgvMeniji_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void PrikazMeniji()
+        {
+            List<Meni> meni = RepozitorijMenija.GetMeni();
+            dgvMeniji.DataSource = meni;
         }
     }
 }

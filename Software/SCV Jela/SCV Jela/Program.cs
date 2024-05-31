@@ -16,7 +16,7 @@ namespace SCV_Jela
         static void Main()
         {
 
-            DB.SetConfiguration("PI2324_lkacarik22_DB", "lkacarik22", "ytdtt3B3");
+            DB.SetConfiguration("PI2324_lkacarik22_DB", "PI2324_lkacarik22_User", "g8^pPgi)");
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
