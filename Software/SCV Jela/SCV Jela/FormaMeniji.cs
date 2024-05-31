@@ -16,5 +16,10 @@ namespace SCV_Jela
         {
             InitializeComponent();
         }
+
+        private void FormaMeniji_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

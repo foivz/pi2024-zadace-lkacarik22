@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DBLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,6 +15,9 @@ namespace SCV_Jela
         [STAThread]
         static void Main()
         {
+
+            DB.SetConfiguration("PI2324_lkacarik22_DB", "lkacarik22", "ytdtt3B3");
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormaGlavna());
