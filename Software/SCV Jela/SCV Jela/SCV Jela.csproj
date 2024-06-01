@@ -68,6 +68,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\RepozitorijMenija.cs" />
+    <Compile Include="Repositories\RepozitorijZaposlenika.cs" />
     <EmbeddedResource Include="FormaGlavna.resx">
       <DependentUpon>FormaGlavna.cs</DependentUpon>
     </EmbeddedResource>

@@ -8,10 +8,10 @@ namespace SCV_Jela.Models
 {
     public class Zaposlenik
     {
-        public int Id { get; set; }
-        public string ime { get; set; }
-        public string prezime { get; set; }
-        public string korime {  get; set; }
-        public string lozinka { get; set; }
+        public int ID { get; set; }
+        public string Ime { get; set; }
+        public string Prezime { get; set; }
+        public string Korime {  get; set; }
+        public string Lozinka { get; set; }
     }
 }

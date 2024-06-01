@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+using SCV_Jela.Models;
+using SCV_Jela.Repositories;
 
 namespace SCV_Jela
 {
@@ -18,8 +20,10 @@ namespace SCV_Jela
             InitializeComponent();
         }
 
-        string username = "test";
-        string password = "test";
+        //public static Zaposlenik LogiraniZaposlenik { get; set; }
+        private string username = "test";
+        private string password = "test";
+
 
 
         private void button1_Click(object sender, EventArgs e)
@@ -36,7 +40,10 @@ namespace SCV_Jela
             }
             else
             {
-                if (textBox_prijava.Text == username && textBox_lozinka.Text == password)
+                //LogiraniZaposlenik = RepozitorijZaposlenika.GetZaposlenik(textBox_prijava.Text);
+
+                //if (LogiraniZaposlenik != null && LogiraniZaposlenik.Lozinka == textBox_lozinka.Text)
+                if(textBox_prijava.Text == username && textBox_lozinka.Text == password)
                 {
                     FormaMeniji formaMeniji = new FormaMeniji();
                     Hide();
@@ -59,6 +66,11 @@ namespace SCV_Jela
         }
 
         private void textBox_lozinka_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormaGlavna_Load(object sender, EventArgs e)
         {
 
         }
