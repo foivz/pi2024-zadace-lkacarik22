@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormaBrisanje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaBrisanje.Designer.cs">
+      <DependentUpon>FormaBrisanje.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormaMeniji.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\RepozitorijMenija.cs" />
     <Compile Include="Repositories\RepozitorijZaposlenika.cs" />
+    <EmbeddedResource Include="FormaBrisanje.resx">
+      <DependentUpon>FormaBrisanje.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormaGlavna.resx">
       <DependentUpon>FormaGlavna.cs</DependentUpon>
     </EmbeddedResource>

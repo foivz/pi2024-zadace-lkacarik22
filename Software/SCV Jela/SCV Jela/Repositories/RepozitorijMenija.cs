@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SCV_Jela.Models;
 using System.Data.SqlClient;
+using System.Data.Common;
 
 namespace SCV_Jela.Repositories
 {
@@ -62,6 +63,24 @@ namespace SCV_Jela.Repositories
             return meni;
         }
 
+        public void ObrisiMeni(int id)
+        {
+            string sql = $"DELETE FROM Meni WHERE ID_meni = {id}";
+
+                DB.OpenConnection();
+                DB.ExecuteCommand(sql);
+                DB.CloseConnection();
+        }
+
+        /*public int DohvatiBrojMenija()
+        {
+            string sql = "SELECT COUNT(*) FROM Meni";
+
+                DB.OpenConnection();
+                int brojMenija = (int)DB.GetScalar(sql);
+                DB.CloseConnection();
+                return brojMenija;
+        }*/
 
     }
 }
