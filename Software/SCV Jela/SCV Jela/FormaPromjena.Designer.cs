@@ -164,6 +164,7 @@
             this.comboBox_odabir.Name = "comboBox_odabir";
             this.comboBox_odabir.Size = new System.Drawing.Size(99, 36);
             this.comboBox_odabir.TabIndex = 12;
+            this.comboBox_odabir.SelectedIndexChanged += new System.EventHandler(this.comboBox_odabir_SelectedIndexChanged);
             // 
             // button1
             // 
@@ -175,6 +176,7 @@
             this.button1.TabIndex = 13;
             this.button1.Text = "Spremi";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
