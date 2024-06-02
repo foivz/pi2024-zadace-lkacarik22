@@ -27,7 +27,7 @@ namespace SCV_Jela
         private void button4_Click(object sender, EventArgs e)
         {
             if (int.TryParse(textBox_pretragaID.Text.Trim(), out int id));
-            PronadiMeni(id);
+            PronadiMeni_ID(id);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -38,7 +38,7 @@ namespace SCV_Jela
             Close();
         }
 
-        public void PronadiMeni(int id)
+        public void PronadiMeni_ID(int id)
         {
             string sql = $"SELECT * FROM Meni WHERE ID_meni = {id}";
 
@@ -58,6 +58,80 @@ namespace SCV_Jela
             }
             reader.Close();
             DB.CloseConnection();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_pretragaID_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_desert_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_prilog_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_glavno_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_juha_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_ID_TextChanged(object sender, EventArgs e)
+        {
         }
     }
 }

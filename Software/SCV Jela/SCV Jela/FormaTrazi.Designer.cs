@@ -51,11 +51,11 @@
             // 
             this.button4.BackColor = System.Drawing.Color.CadetBlue;
             this.button4.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(862, 238);
+            this.button4.Location = new System.Drawing.Point(418, 97);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(228, 45);
+            this.button4.Size = new System.Drawing.Size(77, 45);
             this.button4.TabIndex = 8;
-            this.button4.Text = "Pronađi meni";
+            this.button4.Text = "Traži";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -63,7 +63,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.CadetBlue;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 238);
+            this.button1.Location = new System.Drawing.Point(12, 369);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 45);
             this.button1.TabIndex = 9;
@@ -74,131 +74,144 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(392, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(144, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(320, 67);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // textBox_desert
             // 
             this.textBox_desert.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_desert.Location = new System.Drawing.Point(959, 171);
+            this.textBox_desert.Location = new System.Drawing.Point(268, 323);
             this.textBox_desert.Name = "textBox_desert";
             this.textBox_desert.ReadOnly = true;
             this.textBox_desert.Size = new System.Drawing.Size(131, 32);
             this.textBox_desert.TabIndex = 20;
+            this.textBox_desert.TextChanged += new System.EventHandler(this.textBox_desert_TextChanged);
             // 
             // textBox_prilog
             // 
             this.textBox_prilog.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_prilog.Location = new System.Drawing.Point(730, 168);
+            this.textBox_prilog.Location = new System.Drawing.Point(268, 285);
             this.textBox_prilog.Name = "textBox_prilog";
             this.textBox_prilog.ReadOnly = true;
             this.textBox_prilog.Size = new System.Drawing.Size(131, 32);
             this.textBox_prilog.TabIndex = 19;
+            this.textBox_prilog.TextChanged += new System.EventHandler(this.textBox_prilog_TextChanged);
             // 
             // textBox_glavno
             // 
             this.textBox_glavno.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_glavno.Location = new System.Drawing.Point(301, 163);
+            this.textBox_glavno.Location = new System.Drawing.Point(268, 245);
             this.textBox_glavno.Name = "textBox_glavno";
             this.textBox_glavno.ReadOnly = true;
             this.textBox_glavno.Size = new System.Drawing.Size(131, 32);
             this.textBox_glavno.TabIndex = 18;
+            this.textBox_glavno.TextChanged += new System.EventHandler(this.textBox_glavno_TextChanged);
             // 
             // textBox_juha
             // 
             this.textBox_juha.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_juha.Location = new System.Drawing.Point(511, 166);
+            this.textBox_juha.Location = new System.Drawing.Point(268, 207);
             this.textBox_juha.Name = "textBox_juha";
             this.textBox_juha.ReadOnly = true;
             this.textBox_juha.Size = new System.Drawing.Size(131, 32);
             this.textBox_juha.TabIndex = 17;
+            this.textBox_juha.TextChanged += new System.EventHandler(this.textBox_juha_TextChanged);
             // 
             // textBox_ID
             // 
             this.textBox_ID.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_ID.Location = new System.Drawing.Point(64, 163);
+            this.textBox_ID.Location = new System.Drawing.Point(268, 169);
             this.textBox_ID.Name = "textBox_ID";
             this.textBox_ID.ReadOnly = true;
             this.textBox_ID.Size = new System.Drawing.Size(131, 32);
             this.textBox_ID.TabIndex = 16;
+            this.textBox_ID.TextChanged += new System.EventHandler(this.textBox_ID_TextChanged);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(875, 171);
+            this.label5.Location = new System.Drawing.Point(184, 323);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(78, 28);
             this.label5.TabIndex = 15;
             this.label5.Text = "Desert";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(653, 172);
+            this.label4.Location = new System.Drawing.Point(191, 289);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 28);
             this.label4.TabIndex = 14;
             this.label4.Text = "Prilog";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(212, 167);
+            this.label3.Location = new System.Drawing.Point(179, 249);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 28);
             this.label3.TabIndex = 13;
             this.label3.Text = "Glavno";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(447, 168);
+            this.label2.Location = new System.Drawing.Point(204, 209);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 28);
             this.label2.TabIndex = 12;
             this.label2.Text = "Juha";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(24, 167);
+            this.label1.Location = new System.Drawing.Point(228, 173);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(34, 28);
             this.label1.TabIndex = 11;
             this.label1.Text = "ID";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(413, 98);
+            this.label6.Location = new System.Drawing.Point(139, 105);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(154, 28);
             this.label6.TabIndex = 21;
             this.label6.Text = "Pretraži po ID:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // textBox_pretragaID
             // 
             this.textBox_pretragaID.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_pretragaID.Location = new System.Drawing.Point(573, 97);
+            this.textBox_pretragaID.Location = new System.Drawing.Point(299, 104);
             this.textBox_pretragaID.Name = "textBox_pretragaID";
             this.textBox_pretragaID.Size = new System.Drawing.Size(100, 32);
             this.textBox_pretragaID.TabIndex = 23;
+            this.textBox_pretragaID.TextChanged += new System.EventHandler(this.textBox_pretragaID_TextChanged);
             // 
             // FormaTrazi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1116, 312);
+            this.ClientSize = new System.Drawing.Size(606, 426);
             this.Controls.Add(this.textBox_pretragaID);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox_desert);
