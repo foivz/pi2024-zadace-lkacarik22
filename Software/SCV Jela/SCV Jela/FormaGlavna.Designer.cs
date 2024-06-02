@@ -48,7 +48,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(118, 142);
+            this.label1.Location = new System.Drawing.Point(115, 165);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(302, 28);
             this.label1.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             this.gumb_prijava.BackColor = System.Drawing.Color.CadetBlue;
             this.gumb_prijava.Font = new System.Drawing.Font("Microsoft YaHei UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gumb_prijava.Location = new System.Drawing.Point(162, 191);
+            this.gumb_prijava.Location = new System.Drawing.Point(153, 212);
             this.gumb_prijava.Name = "gumb_prijava";
             this.gumb_prijava.Size = new System.Drawing.Size(225, 47);
             this.gumb_prijava.TabIndex = 6;
