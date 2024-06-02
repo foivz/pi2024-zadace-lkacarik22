@@ -56,6 +56,12 @@
     <Compile Include="FormaBrisanje.Designer.cs">
       <DependentUpon>FormaBrisanje.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormaDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaDodaj.Designer.cs">
+      <DependentUpon>FormaDodaj.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormaMeniji.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,12 @@
     <Compile Include="FormaPromjena.Designer.cs">
       <DependentUpon>FormaPromjena.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormaTrazi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaTrazi.Designer.cs">
+      <DependentUpon>FormaTrazi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Meni.cs" />
     <Compile Include="Models\Osoba.cs" />
     <Compile Include="Models\Zaposlenik.cs" />
@@ -84,6 +96,9 @@
     <EmbeddedResource Include="FormaBrisanje.resx">
       <DependentUpon>FormaBrisanje.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormaDodaj.resx">
+      <DependentUpon>FormaDodaj.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormaGlavna.resx">
       <DependentUpon>FormaGlavna.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormaPromjena.resx">
       <DependentUpon>FormaPromjena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormaTrazi.resx">
+      <DependentUpon>FormaTrazi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

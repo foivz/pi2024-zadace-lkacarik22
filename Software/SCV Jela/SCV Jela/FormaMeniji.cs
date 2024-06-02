@@ -66,7 +66,10 @@ namespace SCV_Jela
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            FormaDodaj formaDodaj = new FormaDodaj();
+            Hide();
+            formaDodaj.ShowDialog();
+            Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -82,6 +85,14 @@ namespace SCV_Jela
             FormaBrisanje formaBrisanje = new FormaBrisanje();
             Hide();
             formaBrisanje.ShowDialog();
+            Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FormaTrazi formaTrazi = new FormaTrazi();
+            Hide();
+            formaTrazi.ShowDialog();
             Close();
         }
     }

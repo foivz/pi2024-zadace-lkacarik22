@@ -10,24 +10,19 @@ using System.Windows.Forms;
 
 namespace SCV_Jela
 {
-    public partial class FormaPromjena : Form
+    public partial class FormaDodaj : Form
     {
-        public FormaPromjena()
+        public FormaDodaj()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             FormaMeniji formaMeniji = new FormaMeniji();
             Hide();
             formaMeniji.ShowDialog();
             Close();
-        }
-
-        private void FormaPromjena_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

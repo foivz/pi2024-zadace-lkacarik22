@@ -34,14 +34,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox_ID = new System.Windows.Forms.TextBox();
+            this.textBox_juha = new System.Windows.Forms.TextBox();
+            this.textBox_glavno = new System.Windows.Forms.TextBox();
+            this.textBox_prilog = new System.Windows.Forms.TextBox();
+            this.textBox_desert = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox_odabir = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -97,45 +97,45 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Desert";
             // 
-            // textBox1
+            // textBox_ID
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(300, 168);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(131, 32);
-            this.textBox1.TabIndex = 5;
+            this.textBox_ID.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_ID.Location = new System.Drawing.Point(300, 168);
+            this.textBox_ID.Name = "textBox_ID";
+            this.textBox_ID.Size = new System.Drawing.Size(131, 32);
+            this.textBox_ID.TabIndex = 5;
             // 
-            // textBox2
+            // textBox_juha
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(300, 214);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(131, 32);
-            this.textBox2.TabIndex = 6;
+            this.textBox_juha.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_juha.Location = new System.Drawing.Point(300, 214);
+            this.textBox_juha.Name = "textBox_juha";
+            this.textBox_juha.Size = new System.Drawing.Size(131, 32);
+            this.textBox_juha.TabIndex = 6;
             // 
-            // textBox3
+            // textBox_glavno
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(300, 259);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(131, 32);
-            this.textBox3.TabIndex = 7;
+            this.textBox_glavno.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_glavno.Location = new System.Drawing.Point(300, 259);
+            this.textBox_glavno.Name = "textBox_glavno";
+            this.textBox_glavno.Size = new System.Drawing.Size(131, 32);
+            this.textBox_glavno.TabIndex = 7;
             // 
-            // textBox4
+            // textBox_prilog
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(300, 304);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(131, 32);
-            this.textBox4.TabIndex = 8;
+            this.textBox_prilog.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_prilog.Location = new System.Drawing.Point(300, 304);
+            this.textBox_prilog.Name = "textBox_prilog";
+            this.textBox_prilog.Size = new System.Drawing.Size(131, 32);
+            this.textBox_prilog.TabIndex = 8;
             // 
-            // textBox5
+            // textBox_desert
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(300, 353);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(131, 32);
-            this.textBox5.TabIndex = 9;
+            this.textBox_desert.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_desert.Location = new System.Drawing.Point(300, 353);
+            this.textBox_desert.Name = "textBox_desert";
+            this.textBox_desert.Size = new System.Drawing.Size(131, 32);
+            this.textBox_desert.TabIndex = 9;
             // 
             // label6
             // 
@@ -156,14 +156,14 @@
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
-            // comboBox1
+            // comboBox_odabir
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(569, 98);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(99, 36);
-            this.comboBox1.TabIndex = 12;
+            this.comboBox_odabir.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox_odabir.FormattingEnabled = true;
+            this.comboBox_odabir.Location = new System.Drawing.Point(569, 98);
+            this.comboBox_odabir.Name = "comboBox_odabir";
+            this.comboBox_odabir.Size = new System.Drawing.Size(99, 36);
+            this.comboBox_odabir.TabIndex = 12;
             // 
             // button1
             // 
@@ -196,14 +196,14 @@
             this.ClientSize = new System.Drawing.Size(693, 450);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboBox_odabir);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox_desert);
+            this.Controls.Add(this.textBox_prilog);
+            this.Controls.Add(this.textBox_glavno);
+            this.Controls.Add(this.textBox_juha);
+            this.Controls.Add(this.textBox_ID);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -212,6 +212,7 @@
             this.Name = "FormaPromjena";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SCV Jela - Izmjena menija";
+            this.Load += new System.EventHandler(this.FormaPromjena_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -225,14 +226,14 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox_ID;
+        private System.Windows.Forms.TextBox textBox_juha;
+        private System.Windows.Forms.TextBox textBox_glavno;
+        private System.Windows.Forms.TextBox textBox_prilog;
+        private System.Windows.Forms.TextBox textBox_desert;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox_odabir;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
     }

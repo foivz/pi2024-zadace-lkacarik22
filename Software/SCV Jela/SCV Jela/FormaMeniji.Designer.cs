@@ -30,18 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormaMeniji));
             this.dgvMeniji = new System.Windows.Forms.DataGridView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMeniji)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvMeniji
             // 
+            this.dgvMeniji.BackgroundColor = System.Drawing.Color.White;
             this.dgvMeniji.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMeniji.Location = new System.Drawing.Point(19, 174);
             this.dgvMeniji.Margin = new System.Windows.Forms.Padding(2);
@@ -51,20 +52,11 @@
             this.dgvMeniji.TabIndex = 0;
             this.dgvMeniji.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMeniji_CellContentClick);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(297, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(320, 67);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(131, 120);
+            this.label1.Location = new System.Drawing.Point(15, 121);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(366, 41);
             this.label1.TabIndex = 3;
@@ -114,8 +106,18 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(228, 45);
             this.button4.TabIndex = 7;
-            this.button4.Text = "Pronađi meni";
+            this.button4.Text = "Pretraživanje menija";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(290, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(320, 67);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // FormaMeniji
             // 
@@ -144,11 +146,11 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgvMeniji;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
