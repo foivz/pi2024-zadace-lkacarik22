@@ -102,6 +102,7 @@
             this.textBox_ID.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_ID.Location = new System.Drawing.Point(300, 168);
             this.textBox_ID.Name = "textBox_ID";
+            this.textBox_ID.ReadOnly = true;
             this.textBox_ID.Size = new System.Drawing.Size(131, 32);
             this.textBox_ID.TabIndex = 5;
             // 

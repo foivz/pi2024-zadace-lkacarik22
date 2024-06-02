@@ -72,6 +72,15 @@ namespace SCV_Jela
             string prilog = textBox_prilog.Text.Trim();
             string desert = textBox_desert.Text.Trim();
 
+            if (string.IsNullOrWhiteSpace(textBox_ID.Text) ||
+                    string.IsNullOrWhiteSpace(textBox_juha.Text) ||
+                    string.IsNullOrWhiteSpace(textBox_glavno.Text) ||
+                    string.IsNullOrWhiteSpace(textBox_desert.Text))
+            {
+                MessageBox.Show("Molim popunite sva obavezna polja: ID, Juha, Glavno, Desert");
+                return;
+            }
+
             string sql = $"UPDATE Meni SET juha_meni = '{juha}', glavno_meni = '{glavno}', prilog_meni = '{prilog}', desert_meni = '{desert}' WHERE ID_meni = {id}";
 
             DB.OpenConnection();

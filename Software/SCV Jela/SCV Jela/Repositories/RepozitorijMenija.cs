@@ -71,16 +71,5 @@ namespace SCV_Jela.Repositories
                 DB.ExecuteCommand(sql);
                 DB.CloseConnection();
         }
-
-        /*public int DohvatiBrojMenija()
-        {
-            string sql = "SELECT COUNT(*) FROM Meni";
-
-                DB.OpenConnection();
-                int brojMenija = (int)DB.GetScalar(sql);
-                DB.CloseConnection();
-                return brojMenija;
-        }*/
-
     }
 }
