@@ -6,7 +6,7 @@ Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime
 ------------  | ------------------- | ----- | ---------------------
 Luka Kačarik | lkacarik22@foi.hr | 0016158188 | lkacarik22
 
-Korisničko ime: markan 
+Korisničko ime: markan   
 Lozinka: 1234
 
 ## Opis domene
