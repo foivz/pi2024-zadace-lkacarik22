@@ -6,9 +6,6 @@ Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime
 ------------  | ------------------- | ----- | ---------------------
 Luka Kačarik | lkacarik22@foi.hr | 0016158188 | lkacarik22
 
-Korisničko ime: markan   
-Lozinka: 1234
-
 ## Opis domene
 Studentski centar Varaždin (SCVZ) uvodi novi informacijski sustav u studentski restoran u obliku aplikacije kojemu je cilj poboljšanje zadovoljstva studenata posluženim obrocima. Aplikacija će imati mogućnosti praćenja preference studenata te bilježenja povratnih informacija ocijenjivanjem obroka od strane studenata. Dodatno, kako bi se smanjilo vrijeme čekanja narudžbi, u aplikaciji će biti moguće narudžbe u studentskom restoranu. Studentski restoran trenutno nema ovakav informacijski sustav.
 
